@@ -21,7 +21,7 @@ public class EndRentalMenu {
         try {
 
             println( "\nAVSLUTA HYRNING" );
-            println( "skriv in id för medlem och id för det du lämna tillbaka: ");
+            println( "skriv in id för medlem och id för det du lämnar tillbaka: ");
             print( "medlem id: " );
             memberID = Integer.parseInt( readln() );
             member   = membershipService.getMemberWithID( memberID );
@@ -41,7 +41,7 @@ public class EndRentalMenu {
 
             Integer userChoice = null;
 
-            print( "välj hyrning at avsluta: " );
+            print( "välj hyrning att avsluta: " );
             userChoice = Integer.parseInt( readln() );
 
             if( userChoice < 1 || userChoice > member.getCurrentRentals().size() ) {

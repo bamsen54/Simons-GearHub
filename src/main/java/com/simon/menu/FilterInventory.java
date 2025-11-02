@@ -89,7 +89,7 @@ public class FilterInventory {
 
     public static void searchByCategory( Inventory inventory ) {
 
-        print( "skriv in kategori du vill söka på: " );
+        print( "skriv in kategori du vill söka på (bil, elbil eller husvagn): " );
         String category = readln();
 
         boolean categoryExists = false;

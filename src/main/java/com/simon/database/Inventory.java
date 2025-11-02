@@ -27,7 +27,7 @@ public class Inventory {
 
         Item teslamodely   = new ElectricCar( 4, "Tesla Model Y", "elbil", 900, "75", true );
         Item volkswagenid4 = new ElectricCar( 5, "Volkswagen ID.4", "elbil", 750, "52",  true );
-        Item volvoex40     = new ElectricCar( 6, "Volvo EX40", "elbil", 1100, "69 ", true );
+        Item volvoex40     = new ElectricCar( 6, "Volvo EX40", "elbil", 1100, "6 ", true );
         inventory.put( teslamodely.getId() , new InventoryEntry( teslamodely ,  2 ) );
         inventory.put( volkswagenid4.getId() , new InventoryEntry( volkswagenid4 ,  3 ) );
         inventory.put( volvoex40.getId() , new InventoryEntry( volvoex40 ,  1 ) );

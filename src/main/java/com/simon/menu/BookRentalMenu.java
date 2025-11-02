@@ -37,7 +37,7 @@ public class BookRentalMenu {
             print( "antal dagar: " );
             int days = Integer.parseInt( readln() );
             if( days < 1 ) {
-                println( "antal dagar måste 1 eller fler\n" );
+                println( "antal dagar måste vara 1 eller fler\n" );
                 return;
             }
 

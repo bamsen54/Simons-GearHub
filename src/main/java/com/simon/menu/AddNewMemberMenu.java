@@ -37,7 +37,7 @@ public class AddNewMemberMenu {
         }
 
         catch( NumberFormatException e ) {
-            println( "id kan endast vara positiva heltal\n" );
+            println( "id kan endast vara icke-negativa heltal\n" );
             return;
         }
 
